@@ -1,11 +1,56 @@
-var JS = "JavaScript";
+// var JS = "JavaScript";
 
-if (JS == "JavaScript") console.log('JS is JavaScript');
-else console.log('JS is Not a JavaScript');
+// if (JS == "JavaScript") console.log("JS is JavaScript");
+// else console.log("JS is Not a JavaScript");
 
+// var JS = "FUN";
+// if (JS == "JavScript") console.log("JS is JavaScript");
+// else console.log("JS is Not a JavaScript");
 
-var JS = "FUN";
-if (JS == "JavScript") console.log('JS is JavaScript');
-else console.log('JS is Not a JavaScript');
+// console.log(14 + 20 + 18 + 545 * 5 - 8 / 2);
 
-console.log(14+20+18+545*5-8/2);
+console.log("====== LECTURE: Values and Variables ====== ");
+
+// let Country = "India";
+// let Continent = "Asia";
+// let Population = "138";
+
+// console.log(
+//   "Country = " +
+//     Country +
+//     ", Continent = " +
+//     Continent +
+//     ", Population = " +
+//     Population
+// );
+
+// console.log("Contry Type = " + typeof Country);
+// console.log("Continent Type = " + typeof Continent);
+// console.log("population Type = " + typeof population);
+
+console.log("====== LECTURE: Data Types ====== ");
+
+// let isIsland = !true;
+// let Language;
+
+// console.log("My Country Is Island = " + isIsland);
+// console.log("IsIsland Data Type = " + typeof isIsland);
+// console.log("Language = " + Language);
+// console.log("Language Data Type = " + typeof Language);
+
+console.log("====== LECTURE: let, const and var ====== ");
+
+Language = "Gujrati";
+console.log("Language = " + Language);
+
+const Continent = "Asia";
+console.log("Continent = " + Continent);
+
+const Country = "India";
+console.log("Country = " + Country);
+
+let Population = "138 CR";
+console.log("Population in 2001 = " + Population);
+
+Population = "145 CR";
+console.log("Population in 2021 = " + Population);
