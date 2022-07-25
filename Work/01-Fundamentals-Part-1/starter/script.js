@@ -43,14 +43,34 @@ console.log("====== LECTURE: let, const and var ====== ");
 Language = "Gujrati";
 console.log("Language = " + Language);
 
+Language = "Hindi";
+console.log("Language = " + Language);
+
 const Continent = "Asia";
 console.log("Continent = " + Continent);
 
 const Country = "India";
 console.log("Country = " + Country);
 
-let Population = "138 CR";
-console.log("Population in 2001 = " + Population);
+let Population = 138;
+console.log("Population in 2001 = " + Population + ' CR');
 
-Population = "145 CR";
-console.log("Population in 2021 = " + Population);
+Population = 145;
+console.log("Population in 2021 = " + Population + ' CR');
+
+console.log("====== LECTURE: Basic Operators ====== ");
+
+let Que1 = Population / 2;
+console.log('Que1 = ' + Que1);
+
+Population++;
+console.log('Que2 = ' + Population);
+
+let Que3 = Population > 6;
+console.log('Que3 = ' + Que3);
+
+let Que4 = Population < 33;
+console.log('Que4 = ' + Que4);
+
+const description = Country + ' is in ' + Continent + ', and its ' + Population + ' million people speak ' + Language;
+console.log(description)
