@@ -56,6 +56,69 @@
 // checkWinner(DolphinsScore, KoalasScore);
 
 
-console.log("====== LECTURE: Introduction to Arrays ====== ");
+// console.log("====== LECTURE: Introduction to Arrays ====== ");
 
-const populations = ['138', '141.5', '46', '95'];
+// const percentageofworld1 = (population) => {
+//   return population * 100 / 7900
+// };
+
+// const populations = ['1380', '1410', '460', '950', '950'];
+// console.log(populations.length === 4);
+
+// const percentages = [
+//   percentageofworld1(populations[0]),
+//   percentageofworld1(populations[1]),
+//   percentageofworld1(populations[2]),
+//   percentageofworld1(populations[3])
+// ]
+// console.log(percentages);
+
+// console.log("====== LECTURE: Basic Array Operations (Methods) ====== ");
+
+// const InNeighbours = ["Afghanistan", "Bangladesh", "Bhutan", "China", "Maldives", "Myanmar", "Nepal", "Pakistan", "Sri Lanka"];
+// console.log(InNeighbours);
+
+// InNeighbours.push("Utopia");
+// console.log(InNeighbours);
+
+// InNeighbours.pop("Utopia");
+// console.log(InNeighbours);
+
+// console.log(InNeighbours.includes("Germany") ? "" : "Probably not a central European country :)");
+
+// InNeighbours[7] = "Pak";
+// console.log(InNeighbours);
+
+
+// console.log("====== Coding Challenge #2 ====== ");
+// function calcTip(price) {
+//   return price >= 50 && price <= 300 ? price * 0.15 : price * 0.20;
+// }
+// const bills = [125, 555, 44];
+// console.log(bills);
+// const tips = [
+//   calcTip(bills[0]),
+//   calcTip(bills[1]),
+//   calcTip(bills[2])
+// ];
+// console.log(tips);
+// // debugger
+// const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+// // debugger
+// console.log(total);
+
+// console.log("====== LECTURE: Introduction to Objects ====== ");
+
+const myCountry = {
+  country: 'India',
+  capital: 'Delhi',
+  language: ["Assamese", "Bangla", "Bodo", "Dogri", "Gujarati", "Hindi", "Kashmiri", "Kannada", "Konkani", "Maithili", "Malayalam", "Manipuri", "Marathi", "Nepali", "Oriya", "Punjabi", "Tamil", "Telugu", "Santali", "Sindhi", "Urdu"],
+  population: 138,
+  neighbours: ["Afghanistan", "Bangladesh", "Bhutan", "China", "Maldives", "Myanmar", "Nepal", "Pakistan", "Sri Lanka"]
+}
+console.log(myCountry);
+
+
+console.log("====== LECTURE: Dot vs. Bracket Notation ====== ");
+
+console.log(`${myCountry.country} has ${myCountry.population} million ${myCountry.language} speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
