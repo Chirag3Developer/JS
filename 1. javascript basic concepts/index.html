@@ -11,7 +11,12 @@
       height: 100vh;
       /* display: flex;
       align-items: center; */
-      background: linear-gradient(to top left, #28b487, #7dd56f);
+      background: #fbeaed;
+      color: #000;
+    }
+
+    p {
+      display: none;
     }
 
     /* h1 {
@@ -27,31 +32,48 @@
 </head>
 
 <body>
+
   <h1>Javascript Basic Concepts</h1>
 
+  <p id="dText"></p>
+
   <div>
-    <h2>1. Scope</h2>
+    <h4>1. Scope</h4>
     <p>- Scope means variable access. What variable do I have access to when a code is running?</p>
     <p>- 1. Local Scope allows access to everything within the boundaries (inside the box)</p>
     <p>- 2. Global Scope is everything outside the boundaries (outside the box). A global scope can not access a variable defined in local scope because it is enclosed from the outer world, except if you return it.</p>
 
-    <h2>2. IIFE (Immediately Invoked Function Expression)</h2>
+    <h4>2. IIFE (Immediately Invoked Function Expression)</h4>
     <p>As the name suggests IIFE is a function in Javascript which immediately invoked and executed as soon as it is defined.</p>
 
-    <h2>3. Hoisting</h2>
+    <h4>3. Hoisting</h4>
     <p>The reason behind this is hoisting where the Javascript interpreter always moves the variables and function declaration to the top of the current scope (function scope or global scope) before the code execution.</p>
 
-    <h2>4. Closures</h2>
+    <h4>4. Closures</h4>
     <p>A closure is simply a function inside another function that has access to the outer function variable.</p>
 
-    <h2>5. Callbacks</h2>
-    <p></p>
+    <h4>5. Callbacks</h4>
+    <p>A callback is a function passed as an argument to another function This technique allows a function to call another function A callback function can run after another function has finished</p>
 
-    <h2>6. Promises</h2>
-    <p></p>
+    <h4>6. synchronous</h4>
+    <p>An a synchronous model allows multiple things to happen at the same time.</p>
 
-    <h2>7. Async & Await</h2>
+    <h4>7. Asynchronous</h4>
+    <p>Functions running in parallel with other functions are called asynchronous A good example is JavaScript setTimeout()</p>
+    <p>An asynchronous model allows multiple things to happen at the same time.</p>
+
+    <h4>8. Promises</h4>
+    <p>Resolve, Reject</p>
+    <p>Fulfilled: When the operation is completed successfully.</p>
+    <p>Rejected: When the operation is failed.</p>
+    <p>Pending: initial state, neither fulfilled nor rejected.</p>
+
+    <h4>7. Async & Await</h4>
     <p></p>
+  </div>
+
+  <div>
+    <ul class="carData" id="carData"></ul>
   </div>
 
   <script src="script.js"></script>
